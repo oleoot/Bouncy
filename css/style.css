@@ -3,7 +3,9 @@ margin:0;
 padding:0;
 }
 /* Styling for slider */
-
+html,body{
+overflow-x: hidden;
+}
 
 .slider{
 width: 100%;
@@ -921,6 +923,9 @@ margin: 0 auto;
 background-color: #19bd9a;
 display: flex;
 justify-content: center;
+outline: none;
+border: none;
+color: #fff;
 }
 .submit_button a{
   color: #ffffff;
